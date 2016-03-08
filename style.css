@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1024px;
+    height: auto;
+}
+section {
+    position: relative;
+    width: 1024px;
+    height: 2000px;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+#one{
+    background-color: #373c3f;
+}
+/*Nav START*/
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul {
+
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+/*OPTIMERET TIL MOBIL VERSION*/
+
+
+/*OPTIMERET TIL MOBIL VERSION*/
+
+
+nav ul:after {
+    content: ""; clear: both; display: block;
+
+}
+nav ul li {
+    float: left;
+}
+
+
+
+nav ul li:hover a {
+    color: #fff;
+}
+nav ul li a {
+    display: block; padding: 25px 20px;
+    color: white; text-decoration: none;
+
+}
+nav ul ul{
+    background: #373c3f; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+
+}
+nav ul ul li{
+    float: none;
+    border-top: 1px solid #373c3f;
+    border-bottom: 1px solid #373c3f;
+    position: relative;
+
+}
+nav ul ul li a{
+    padding: 15px 40px;
+    color: white;
+
+}
+
+nav ul ul ul{
+    position: absolute; left: 100%; top:0;}
+
+#blue{
+    height: 577px;
+    width: 100%;
+    background: #18b3c6;
+    color: #ffffff;
+    text-align: justify;
+}
+#Black{
+    height: 245px;
+    width: auto;
+    background: #27212c;
+    color: #9585a3;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    line-height: 245px;
+    font-size: 30px;
+}
+
+#Pink{
+    height: 245px;
+    width: 228px;
+    background: #bc3183;
+    float: right;
+    text-align: center;
+    line-height: 245px;
+    color: #ffffff;
+}
+
+#lilla{
+    height: 296px;
+    width: 341px;
+    background: #5b0fa1;
+    float: left;
+    margin-left: 1px;
+    text-align: center;
+    line-height: 296px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#kvinde{
+
+    float:left;
+}
+
+#bro{
+
+    left: 34%;
+    bottom:auto;
+    float:left;
+}
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+#text_holder {
+    -webkit-column-count: 2;
+    margin: 32px 79px 0 79px;
+}
+.footer h2 {
+    margin: 50px 0 0 79px;
+    color: #088ca5;
+}
+
+
+
+#clear {
+    clear: both;
+}
+
+ #textbox {
+     margin: 32px 80px 0px 80px;
+     -webkit-column-count: 2;
+ }
+
+/*OPTIMERET TIL MOBIL VERSION*/
+
+@media all and (max-width: 640px){
+
+body {
+    width: 100%;
+}
+section {
+    width: 100%;
+}
+#Pink {
+    width: 100%;
+}
+#lilla {
+    width: 100%;
+}
+#kvinde {
+    width: 100%;
+}
+
+#kvinde img {
+    width: 100%;
+}
+#bro {
+    width: 100%;
+}
+    #bro img {
+      width: 100%;
+    }
+    #text_display {
+        display: none;
+    }
+
+    #text_holder {
+        -webkit-column-count: 1;
+        margin: 32px 79px 0 79px;
+    }
+
+}
+
+/*Nav END*/
