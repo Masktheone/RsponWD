@@ -95,7 +95,6 @@ nav ul ul ul{
     line-height: 245px;
     font-size: 30px;
 }
-
 #Pink{
     height: 245px;
     width: 228px;
@@ -104,6 +103,7 @@ nav ul ul ul{
     text-align: center;
     line-height: 245px;
     color: #ffffff;
+    font-size: 60px;
 }
 
 #lilla{
@@ -127,7 +127,6 @@ nav ul ul ul{
 #bro{
 
     left: 34%;
-    bottom:auto;
     float:left;
 }
 .footer {
@@ -139,10 +138,12 @@ nav ul ul ul{
 #text_holder {
     -webkit-column-count: 2;
     margin: 32px 79px 0 79px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 .footer h2 {
     margin: 50px 0 0 79px;
     color: #088ca5;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 
